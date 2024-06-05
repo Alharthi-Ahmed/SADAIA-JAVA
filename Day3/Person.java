@@ -3,14 +3,14 @@ public class Person extends PersonRecord {
     private int age;
     private String address;
 
-    // Constructor
+    
     public Person(String name, int age, String address) {
         setName(name);
         setAge(age);
         setAddress(address);
     }
 
-    // Getters and Setters
+    
     public String getName() {
         return name;
     }
